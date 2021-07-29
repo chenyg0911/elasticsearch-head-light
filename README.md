@@ -4,13 +4,13 @@ light weight elasticsearch-head container, use echo-go serve as http server.
 
 ### Run
 
-git clone repo.
+git clone this repo.
 
-cd repodir
-./elasticsearch-head-light
+`cd repodir`
 
-Open the site in Browser:
-http://yourip:9100
+`./elasticsearch-head-light`
+
+Open the site in Browser: http://yourip:9100
 
 ### Docker run
 
