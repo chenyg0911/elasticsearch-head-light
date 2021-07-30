@@ -10,7 +10,7 @@ git clone this repo.
 
 `./elasticsearch-head-light`
 
-Open the site in Browser: http://yourip:9100
+Open the site in Browser: http://yourip:9100/?auth_user=elastic&auth_password=xxxxxxxxxxxxxxx
 
 ### Docker run
 
