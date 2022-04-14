@@ -8,7 +8,8 @@ git clone this repo.
 
 ```bash
 git clone https://github.com/chenyg0911/elasticsearch-head-light
-cd repodir
+cd git clone https://github.com/chenyg0911/elasticsearch-head-light
+go build .
 ./elasticsearch-head-light
 ```
 
