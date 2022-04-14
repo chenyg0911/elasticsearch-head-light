@@ -2,7 +2,7 @@
 
 light weight elasticsearch-head container, use echo-go serve as http server.
 
-### Run
+## Run
 
 git clone this repo.
 
@@ -10,11 +10,12 @@ git clone this repo.
 
 `./elasticsearch-head-light`
 
-Open the site in Browser: http://yourip:9100/?auth_user=elastic&auth_password=xxxxxxxxxxxxxxx
+Open the site in Browser: <http://yourip:9100/?auth_user=elastic&auth_password=xxxxxxxxxxxxxxx>
 
-### Docker run
+## Docker run
 
-```
+```bash
  docker build  . -t your-repo/elasticsearch-head-light:tag
  docker run -d -p 9100:9100 your-repo/elasticsearch-head-light:tag
- ```
+
+```
