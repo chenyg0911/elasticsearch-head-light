@@ -15,7 +15,7 @@ go build .
 
 Open the site in Browser: <http://yourip:9100/?auth_user=elastic&auth_password=xxxxxxxxxxxxxxx>
 
-## Docker build and run
+## Docker build
 
 ```bash
  docker build  . -t your-repo/elasticsearch-head-light:tag
