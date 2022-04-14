@@ -3,7 +3,7 @@ name: Go
 on:
   push:
     branches: [ main ]
-    
+
 jobs:
 
   build:
@@ -36,4 +36,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: elasticsearch-head-light
-        path: outputs/*
+        path: dist/*
